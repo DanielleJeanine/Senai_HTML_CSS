@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+.flexbox{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    margin-top: 100px;
+    justify-content: center;
+}
+.main_box{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    width: 1000px;
+    height: 800px;
+
+}
+
+.box1{
+    background-color: #C358ED;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 5;
+    margin: 10px;
+    
+}
+
+.box2{
+    background-color: #70d9b8;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    margin: 10px;
+}
+
+.box3{
+    background-color: #2eb2ff;
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    margin: 10px;
+    
+}
+
+.box4{
+    background-color: #44D9e6;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 4;
+    margin: 10px;
+
+}
+
+.box5{
+    background-color: #ff5c5c;
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 4;
+    margin: 10px;
+}
+
+.box6{
+    background-color: #ffbd4a;
+    grid-column-start: 2;
+    grid-column-end: 5;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    margin: 10px;
+}
+
+h1{
+ text-align: end;
+ padding-right: 20px;
+ font-family: 'Open Sans', sans-serif;
+ color: white;
+ 
+ 
+}
+
+.box1 h1{
+    font-size: 2.5rem;
+    text-align: left;
+    margin-left: 20px;
+    margin-bottom: 5px;
+}
+
+.box1 p{
+    margin-top: 5px;
+    text-align: left;
+    margin-left: 20px;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+}

@@ -1,0 +1,28 @@
+
+
+header{
+    background-color: #2d4dbd;
+    background-size: cover;
+    
+    display: flex;
+}
+
+footer{
+    background-color: #2d4dbd;
+}
+
+.cabecalho {
+justify-content: right;
+}
+
+.conteudo{
+    background-image: url(colagem.png);
+    background-size: cover;
+}
+
+.texto{
+    background-color: rgb(196, 19, 131,0.5);
+}
+
+
+
